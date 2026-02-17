@@ -1,0 +1,47 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       Cửa sổ cục bộ = MakeWindow({
+         Hub = {
+         Tiêu đề = "truong hia bao",
+         Video hoạt hình = "Youtube:  baoRoblox"
+         },
+        Khóa = {
+        KeySystem = false,
+        Tiêu đề = "Hệ thống khóa",
+        Mô tả = "",
+        KeyLink = "",
+        Khóa = {"1234"},
+        Thông báo = {
+        Thông báo = đúng,
+        CorrectKey = "Đang chạy tập lệnh...",
+       Incorrectkey = "Khóa không chính xác",
+       CopyKeyLink = "Đã sao chép vào Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Hình ảnh = "http://www.roblox.com/asset/?id=83190276951914",
+       Kích thước = {60, 60},
+       Màu = Color3.fromRGB(10, 10, 10),
+       Góc = đúng,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Script Farm"})
+     
+------- CÁI NÚT
+    
+    AddButton(Tab1o, {
+     Tên = "Redz Hub",
+    Callback = hàm()
+	  Cài đặt cục bộ = {
+  Tham gia nhóm = "Cướp biển"; -- Cướp biển/Lính thủy đánh bộ
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
+  kết thúc
+  })
